@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-beige: #f9f6f0;
+  --color-brand-dark: #121212;
+  --color-brand-accent: #005eff; /* Vibrant royal blue */
+  --color-brand-lime: #d4ff2a; /* Ultra-vibrant highlight lime */
+  --color-brand-tangerine: #ff5e3a; /* Intense high-fashion coral/orange */
+}
+
+/* Custom smooth scroll and hiding scrollbar utility classes */
+html {
+  scroll-behavior: smooth;
+  background-color: #f9f6f0;
+  color: #121212;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+

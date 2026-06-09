@@ -1,0 +1,6 @@
+{
+  "name": "Studio Vance",
+  "description": "Editorial Fashion & Architectural Minimalism Photography Portfolio website inspired by ultra-premium creative displays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
